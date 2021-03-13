@@ -21,7 +21,7 @@ var server = http.createServer(function(request, response) {
 	}
 	
 	else if (request.url == '/img/gallery/study'){
-		filePath = '/img/gallery/graduation.jpg';
+		filePath = '/img/gallery/study.jpg';
 	}
 	
 	else if (request.url == '/video/students/memes'){
